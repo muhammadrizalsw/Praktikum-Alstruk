@@ -1,10 +1,6 @@
-nama = input("Masukkan nama mahasiswa: ")
+for i in range(2):
+    print("sttc")
 
-tugas, uts, uas = map(
-    float, input("Masukkan nilai Tugas, UTS, UAS: ").split(",")
-)
+for j in range(3):
+    print("mhs1")
 
-nilai_akhir = (tugas * 0.3) + (uts * 0.3) + (uas * 0.4)
-status = "Lulus" if nilai_akhir >= 60 else "Belum Lulus"
-
-print(f"\nNama: {nama}\nNilai Akhir: {nilai_akhir:.2f}\nStatus: {status}")
